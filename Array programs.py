@@ -1,0 +1,10 @@
+arr=[10,1,2,5,11,6]
+print(arr)
+arr.sort()
+print("sorted array:",arr)
+arr.append(30)
+print("added elements:",arr)
+arr.remove(11)
+print("after removing 11:",arr)
+print(len(arr))
+print(arr)
